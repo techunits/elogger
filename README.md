@@ -30,6 +30,7 @@ var logger = require('elogger');
 
 logger.debug('My First Debug Test');
 logger.info('My Second Info Test');
-logger.error('My Second Error Test');
+logger.warn('My Third Warn Test');
+logger.error('My Fourth Error Test');
 ```
 
