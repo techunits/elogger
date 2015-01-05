@@ -6,7 +6,7 @@
 exports = module.exports = function(type) {
 	if(false !== type) {
 		var morgan = require('morgan');
-		logType = type || 'combined';
+		logType = type || ":method:\t:date[web]\t:remote-addr :url HTTP/:http-version :status :res[content-length]";
 		return morgan(logType);
 	}
 	else {
