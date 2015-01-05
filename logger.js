@@ -35,7 +35,7 @@ exports.warn = function(str) {
 
 exports.error = function(str) {
 	//	error color: Red
-	console.log("\033[31m" + 'ERROR: ' + "\t" + new Date() + "\t" + processInput(str) + "\033[0m");
+	console.error("\033[31m" + 'ERROR: ' + "\t" + new Date() + "\t" + processInput(str) + "\033[0m");
 };
 
 function processInput(param) {
