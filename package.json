@@ -1,6 +1,6 @@
 {
   "name": "elogger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "elogger will enable exclusive logging for nodejs, expressjs, sailsjs and many other applications.",
   "main": "logger.js",
   "scripts": {
