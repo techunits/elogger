@@ -35,7 +35,7 @@ exports.trace = function(str) {
 
 exports.warn = function(str) {
 	//	warn color: Yellow
-	console.log("\x1B[33m" + 'WARNING: ' + "\t" + new Date() + "\t" + processInput(str) + "\x1B[39m");
+	console.log("\x1B[33m" + 'WARN: ' + "\t" + new Date() + "\t" + processInput(str) + "\x1B[39m");
 };
 
 exports.error = function(str) {
