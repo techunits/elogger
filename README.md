@@ -22,7 +22,7 @@ var express = require('express'),
 
 app.use(elogger(loggingtype));
 ```
-<p>Supported logging types: 'combined', 'common', 'tiny'</p>
+<p>Supported logging types: null, 'combined', 'common', 'tiny'</p>
 
 <h6>For NodeJS command-line applications:</h6>
 ```
@@ -32,6 +32,6 @@ logger.debug('My First Debug Test');
 logger.info('My Second Info Test');
 logger.warn('My Third Warn Test');
 logger.error('My Fourth Error Test');
-logger.trace('My Fifth Info Test');
+logger.trace('My Fifth Trace Test');
 ```
 
