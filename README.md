@@ -32,5 +32,6 @@ logger.debug('My First Debug Test');
 logger.info('My Second Info Test');
 logger.warn('My Third Warn Test');
 logger.error('My Fourth Error Test');
+logger.trace('My Fifth Info Test');
 ```
 
