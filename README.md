@@ -1,7 +1,7 @@
 elogger
 =======
 
-Exclusive logging for nodejs, expressjs, sailsjs and many other nodejs based applications.
+Exclusive logging for nodejs, expressjs, sailsjs, restify, meanjs and many other nodejs based applications.
 
 
 <h4>Introduction</h4>
