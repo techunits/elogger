@@ -29,7 +29,7 @@ exports.info = function(str) {
 };
 
 exports.trace = function(str) {
-	//	error color: Grey
+	//	trace color: Grey
 	console.error("\033[90m" + 'TRACE: ' + "\t" + new Date() + "\t" + processInput(str) + "\033[0m");
 };
 
