@@ -1,5 +1,6 @@
 elogger
 =======
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Exclusive logging for nodejs, expressjs, sailsjs, restify, meanjs and many other nodejs based applications.
 
