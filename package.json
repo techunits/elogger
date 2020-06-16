@@ -1,7 +1,7 @@
 {
   "name": "elogger",
-  "version": "1.0.8",
-  "description": "elogger will enable exclusive logging for nodejs, expressjs, sailsjs and many other applications.",
+  "version": "1.0.9",
+  "description": "elogger will enable exclusive logging for nodejs, expressjs, sailsjs and many other open-source & enterprise scale applications.",
   "main": "logger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,6 @@
   "author": "Sougata Pal <skall.paul@techunits.com> (http://www.techunits.com)",
   "license": "MIT",
   "dependencies": {
-    "morgan": "~1.5.1"
+    "morgan": "^1.10.0"
   }
 }
